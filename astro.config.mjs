@@ -3,11 +3,13 @@ import starlight from "@astrojs/starlight";
 
 // https://astro.build/config
 export default defineConfig({
+  site: "https://jackmaders.github.io",
+  base: "recipe-archive",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Recipe Archive",
       social: {
-        github: "https://github.com/withastro/starlight",
+        github: "https://github.com/jackmaders/recipe-archive",
       },
       sidebar: [
         {
